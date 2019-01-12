@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/Eric/git/sorting_algorithms/quicksort/cpp/src/quicksort.cc
+vector
+-
+
+/mnt/e/Eric/git/sorting_algorithms/quicksort/cpp/test/tests.cc
+../src/quicksort.cc
+/mnt/e/Eric/git/sorting_algorithms/quicksort/cpp/src/quicksort.cc
+vector
+-
+gtest/gtest.h
+-
+
