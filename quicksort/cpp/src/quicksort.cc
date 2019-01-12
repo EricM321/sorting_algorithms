@@ -27,7 +27,6 @@ void quicksort(std::vector<int> unsorted_elements, int low, int high){
 	}
 }
 
-std::vector<int> quicksort(std::vector<int> unsorted_elements) {
+void quicksort(std::vector<int> unsorted_elements) {
 	quicksort(unsorted_elements, 0, unsorted_elements.size());
 }
-
