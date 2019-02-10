@@ -8,4 +8,10 @@ include_directories(${GTEST_INCLUDE_DIRS})
  
 # Link executables with what we want to test and the GTest and pthread library
 add_executable(runQuicksortTests test/quicksort_test.cc)
+<<<<<<< HEAD
 target_link_libraries(runQuicksortTests ${GTEST_LIBRARIES} pthread)
+=======
+add_executable(runMergeSortTests test/merge_sort_test.cc)
+target_link_libraries(runQuicksortTests ${GTEST_LIBRARIES} pthread)
+target_link_libraries(runMergeSortTests ${GTEST_LIBRARIES} pthread)
+>>>>>>> 336c67b5d1cda19e5b6d09b5c10e1e54eeed1d84
